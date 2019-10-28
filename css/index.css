@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {  /*声明字体  引用字体*/
+    font-family: "icomoon";  /*我们自己起名字可以*/
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+      url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+      url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-style: normal;  /*倾斜字体变正常*/
+}
+li {
+    list-style: none;
+}
+.nav {
+    height: 60px;
+}
+.nav ul {
+    float: right;
+}
+.nav li {
+    float: left;
+    margin-right: 21px;
+}
+.nav a {
+    font-size: 12px;
+    color: #737373;
+    text-decoration: none;
+    line-height: 60px;
+}
+.nav a:hover {
+    color: #eee;
+    text-decoration: underline;
+}
+.pic1 {
+    margin-top: 3px;
+}
+.bt1 {
+    width: 52px;
+    height: 30px;
+    background-color: #4386f8;
+    color: #fff;
+    outline: none;
+    margin-top: 15px;
+}
+.google {
+    width: 500px;
+    margin: 140px auto 0;
+    text-align: center;
+}
+.google span {
+    font-size:80px;
+    margin-right: -10px;
+    cursor: default;
+}
+.g1 {
+    color: blue;
+}
+.g2 {
+    color: red;
+}
+.g3 {
+    color: orange;
+}
+.g4 {
+    color: blue;
+}
+.g5 {
+    color: green;
+}
+.g6 {
+    color: red;
+}
+.ser {
+    position: relative;
+    width: 584px;
+    margin: 30px auto 30px;
+}
+.search {
+    display: block;
+    width: 544px;
+    height: 46px;
+    resize: none;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 23px;
+    padding-left: 60px;
+    line-height: 46px;
+    font-size: 25px;
+}
+.icon1 {
+    font-family: "icomoon";
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+.twobutton {
+    width: 300px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.bt2, .bt3 {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    outline: none;
+}
+.bt2 {
+    width: 111px;
+    height: 36px;
+    margin-right: 15px;
+}
+.bt3 {
+    width: 96px;
+    height: 36px;
+}
+.provide {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.provide a, .provide span {
+    font-size: 12px;
+}
+.provide a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+.provide a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.footer1, .footer2 {
+    height: 40px;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 40px;
+    color: #5f6368;
+    font-size: 12px;
+}
+.footer1 {
+    padding-left: 30px;
+    bottom: 41px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.footer2 .l {
+    margin-left: 30px;
+    float: left;
+}
+.footer2 .r {
+    margin-right:30px;
+    float: right;
+}
